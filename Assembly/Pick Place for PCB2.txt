@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\ECG Monitor\Project Outputs for ECG Monitor\Pick Place\Pick Place for PCB2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/09/26
+Time:       11:57
+Revision:   f78e5f4f4fe00e0e24b7b0acc2216609753aae18
+Variant:    No variations
+Units used: mil
+
+Designator Description                                                                                              Layer    Footprint                 Center-X(mil) Center-Y(mil) Rotation
+C1         "CAP CER 1nF 50V C0G 0402"                                                                               TopLayer CAPC0402(1005)33_L        882.181       403.382       90
+C2         "CAP CER 330nF 10V X7R 0402"                                                                             TopLayer CAPC0402(1005)33_L        894.197       568.098       90
+C3         "CAP CER 330nF 10V X7R 0402"                                                                             TopLayer CAPC0402(1005)33_L        1019.425      266.469       180
+C4         "CAP CER 100nF 16V X7R 0402"                                                                             TopLayer CAPC0402(1005)33_L        1145.197      497.098       90
+C5         "CAP CER 100nF 16V X7R 0402"                                                                             TopLayer CAPC0402(1005)33_L        1054.547      642.957       90
+C6         "CAP CER 10nF 50V X7R 0402"                                                                              TopLayer CAPC0402(1005)33_L        981.425       344.469       180
+C7         "CAP CER 1.5nF 50V X7R 0402"                                                                             TopLayer CAPC0402(1005)33_L        1019.913      228.098       0
+R1         "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          810.197       517.098       90       
+R2         "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          810.197       445.098       270      
+R3         "RES 180kO  1% 62.5mW 0402"                                                                              TopLayer RESC0402(1005)_L          865.480       500.098       180      
+R4         "RES 180kO  1% 62.5mW 0402"                                                                              TopLayer RESC0402(1005)_L          865.425       461.469       180      
+R5         "RES 360kO  1% 62.5mW 0402"                                                                              TopLayer RESC0402(1005)_L          831.480       324.098       180      
+R6         "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          894.197       640.815       90       
+R7         "RES 1.4MO  1% 62.5mW 0402"                                                                              TopLayer RESC0402(1005)_L          953.197       717.098       0        
+R8         "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          934.197       641.098       90       
+R9         "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          1114.197      618.815       90       
+R10        "RES 10MO  1% 62.5mW 0402"                                                                               TopLayer RESC0402(1005)_L          1014.197      642.815       270      
+R11        "RES 100kO  1% 62.5mW 0402"                                                                              TopLayer RESC0402(1005)_L          1018.141      305.469       180      
+R12        "RES 1MO  1% 62.5mW 0402"                                                                                TopLayer RESC0402(1005)_L          1054.141      344.469       180      
+R13        "RES 1MO  1% 62.5mW 0402"                                                                                TopLayer RESC0402(1005)_L          963.197       290.098       270      
+R14        "RES 1MO  1% 62.5mW 0402"                                                                                TopLayer RESC0402(1005)_L          974.197       641.815       90       
+U1         "Single-Lead, Heart Rate Monitor Front End"                                                              TopLayer CP_20_10_ADI              1008.197      471.098       90       
