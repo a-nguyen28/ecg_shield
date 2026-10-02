@@ -19,8 +19,9 @@ A custom 2-layer PCB shield for the Arduino Uno R4 Minima, built around the Anal
 | **Assembly** | PCBA via JLCPCB (LFCSP not hand-solderable) |
 | **Board** | 2-layer, bottom ground pour, top signal routing |
 
+## Inspiration 
 
-
+This was mainly inspired by the Sparkfun AD8232 board. Their board is marketed as a heart rate monitor and I wanted to see if I could build a board using the more complicated waveform fidelity circuit. Additionally Sparkfun's board doesn't use a solid ground plane and uses traces for all the routing. Since ECG signals are naturally really sensitive, I wanted to see if I could challenge myself to complete the routing while maintaining as solid of a ground plane as possible. 
 
 ## Design Rationale
 
@@ -54,11 +55,9 @@ Bottom layer carries a solid (near-unbroken) ground pour; V_S and digital signal
 ## Repository Structure
 
 ```
-/schematic      — KiCad schematic source
-/layout         — KiCad PCB layout source
-/bom            — Bill of materials, LCSC part numbers
-/gerbers        — Fabrication outputs (post-routing)
-/docs           — Reference datasheets, design notes
+/Altium         — Schematic, PCB, project 
+/Assembly       — Bill of materials, pick and place files
+/Manufacturing  — Gerber files, NC Drill files
 ```
 
 ## References
@@ -66,6 +65,3 @@ Bottom layer carries a solid (near-unbroken) ground pour; V_S and digital signal
 - [AD8232 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/ad8232.pdf) — see Figure 66 (Cardiac Monitor Configuration) and Table 3 (Pin Function Descriptions)
 - [AD8232-EVALZ User Guide (UG-514)](https://www.analog.com/media/en/technical-documentation/user-guides/ad8232-evalz_ug-514.pdf) — bias resistor configuration options
 
-## License
-
-*(Specify license — e.g. MIT, CERN-OHL for hardware.)*
